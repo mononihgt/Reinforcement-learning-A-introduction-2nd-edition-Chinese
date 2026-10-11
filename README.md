@@ -2,6 +2,25 @@
 
 Sutton 与 Barto 的 *Reinforcement Learning: An Introduction (2nd Edition)* 的中文译本，用 Typst 排版，插图从英文原书按区域高分辨率裁切。
 
+## 著作权说明
+
+**原书著作权归 Richard S. Sutton、Andrew G. Barto 与 MIT Press 所有。** 英文原版于 2018 年由 MIT Press 出版，作者在 <http://incompleteideas.net/book/the-book-2nd.html> 免费提供电子版。
+
+**本仓库是未经授权的非官方中文译本**，由读者自行翻译，与原书作者及出版方没有关联，也未获得其许可或认可。
+
+仓库内容按来源分四类，权利归属各不相同：
+
+| 内容 | 权利归属 |
+|---|---|
+| `tools/`、`template.typ`、`CHAPTER-GUIDE.md` 等工程文件 | 本仓库作者，按 MIT 许可证授权 |
+| 中文译文（`chapters/`、`frontmatter/`、`backmatter/`、`parts/`） | 原书作品的演绎作品，权利仍归原书著作权人，本仓库作者不主张独立著作权 |
+| `assets/figures/` 下的 156 张插图 | 裁切自英文原书，权利归原书著作权人 |
+| `work/` 下各章的英文原文转录 | 英文原文的逐页转录，权利归原书著作权人 |
+
+**根目录的 MIT 许可证只覆盖第一类。** 它不构成对译文与插图的授权，也不表示原书著作权人放弃任何权利。
+
+本译本仅供个人学习与研究使用，不得用于商业用途。若原书著作权人提出要求，本仓库将删除相关内容。
+
 ## 编译
 
 需要 Typst 0.15 以上。
@@ -10,7 +29,7 @@ Sutton 与 Barto 的 *Reinforcement Learning: An Introduction (2nd Edition)* 的
 typst compile --root . book.typ book.pdf
 ```
 
-`--root .` 不能省略，否则 Typst 无法访问项目根目录以外的文件。产物是 382 页的 `book.pdf`。
+`--root .` 不能省略，否则 Typst 无法访问项目根目录以外的文件。产物是 383 页的 `book.pdf`。
 
 单章编译：
 
@@ -39,7 +58,10 @@ typst compile --root . preview/ch05.typ work/out.pdf
 | `tools/pdfkit.py` | 源 PDF 的提取与渲染工具 |
 | `tools/assemble.py` | 整书组装与一致性检查 |
 | `CHAPTER-GUIDE.md` | 逐章作业指南，提取、翻译、校对、修订四阶段的规范 |
-| `work/` | 中间产物，已 gitignore |
+| `work/chNN/` | 各章的翻译记录：英文原文转录、公式代码、插图清单、独立校对报告 |
+| `work/parts/`、`work/refs/` | 分部标题页与参考文献的英文原文归档 |
+
+`work/` 下的翻译记录入库。`work/pages/`（原书 548 页的渲染图，139 MB）与 `work/scratch/` 是本地缓存，已 gitignore，可用 `uv run tools/pdfkit.py render-pages` 重新生成。
 
 ## 工具
 
