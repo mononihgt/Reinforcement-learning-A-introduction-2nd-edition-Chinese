@@ -1,0 +1,107 @@
+[
+  {
+    "label": "Figure 6.1",
+    "pdf_page": 145,
+    "bbox": [66, 71, 476, 218],
+    "path": "assets/figures/ch06/fig-6-1.png",
+    "caption_en": "Changes recommended in the driving home example by Monte Carlo methods (left) and TD methods (right)."
+  },
+  {
+    "label": "Figure 6.2",
+    "pdf_page": 149,
+    "bbox": [245, 116, 456, 256],
+    "path": "assets/figures/ch06/fig-6-2.png",
+    "caption_en": "Performance of TD(0) and constant-α MC under batch training on the random walk task."
+  },
+  {
+    "label": "Figure 6.3",
+    "pdf_page": 155,
+    "bbox": [97, 338, 414, 543],
+    "path": "assets/figures/ch06/fig-6-3.png",
+    "caption_en": "Interim and asymptotic performance of TD control methods on the cliff-walking task as a function of α. All algorithms used an ε-greedy policy with ε = 0.1. Asymptotic performance is an average over 100,000 episodes whereas interim performance is an average over the first 100 episodes. These data are averages of over 50,000 and 10 runs for the interim and asymptotic cases respectively. The solid circles mark the best interim performance of each method. Adapted from van Seijen et al. (2009)."
+  },
+  {
+    "label": "Figure 6.4",
+    "pdf_page": 156,
+    "bbox": [133, 68, 329, 139],
+    "path": "assets/figures/ch06/fig-6-4.png",
+    "caption_en": "The backup diagrams for Q-learning and Expected Sarsa."
+  },
+  {
+    "label": "Figure 6.5",
+    "pdf_page": 157,
+    "bbox": [115, 70, 397, 223],
+    "path": "assets/figures/ch06/fig-6-5.png",
+    "caption_en": "Comparison of Q-learning and Double Q-learning on a simple episodic MDP (shown inset). Q-learning initially learns to take the left action much more often than the right action, and always takes it significantly more often than the 5% minimum probability enforced by ε-greedy action selection with ε = 0.1. In contrast, Double Q-learning is essentially unaffected by maximization bias. These data are averaged over 10,000 runs. The initial action-value estimates were zero. Any ties in ε-greedy action selection were broken randomly."
+  },
+  {
+    "label": "fig-6-inline-1",
+    "pdf_page": 143,
+    "bbox": [427, 122, 457, 192],
+    "path": "assets/figures/ch06/fig-6-inline-1.png",
+    "caption_en": "The backup diagram for tabular TD(0): the value estimate for the top state node is updated from one sample transition to the immediately following state."
+  },
+  {
+    "label": "fig-6-inline-2",
+    "pdf_page": 147,
+    "bbox": [133, 126, 407, 158],
+    "path": "assets/figures/ch06/fig-6-inline-2.png",
+    "caption_en": "The Markov reward process used in the random walk example (Example 6.2): a chain of five nonterminal states A through E with a terminal state on each end; all rewards are zero except a reward of +1 on terminating at the right."
+  },
+  {
+    "label": "fig-6-inline-3",
+    "pdf_page": 147,
+    "bbox": [90, 320, 450, 465],
+    "path": "assets/figures/ch06/fig-6-inline-3.png",
+    "caption_en": "Left: the values learned after various numbers of episodes on a single run of TD(0) with α = 0.1. Right: learning curves for TD(0) and constant-α MC at various values of α, showing the empirical RMS error between the value function learned and the true value function, averaged over the five states, then over 100 runs."
+  },
+  {
+    "label": "fig-6-inline-4",
+    "pdf_page": 149,
+    "bbox": [346, 531, 457, 607],
+    "path": "assets/figures/ch06/fig-6-inline-4.png",
+    "caption_en": "The Markov process model for Example 6.4: from state A the process goes to B with reward 0 with 100% probability, and from B it terminates with reward 1 with 75% probability and with reward 0 with 25% probability."
+  },
+  {
+    "label": "fig-6-inline-5",
+    "pdf_page": 151,
+    "bbox": [125, 216, 415, 246.5],
+    "path": "assets/figures/ch06/fig-6-inline-5.png",
+    "caption_en": "The alternating sequence of states, actions, and rewards comprising an episode, from which Sarsa takes its name: S_t, A_t, R_{t+1}, S_{t+1}, A_{t+1}, R_{t+2}, S_{t+2}, A_{t+2}, ..."
+  },
+  {
+    "label": "fig-6-inline-6",
+    "pdf_page": 151,
+    "bbox": [430, 344, 456, 415],
+    "path": "assets/figures/ch06/fig-6-inline-6.png",
+    "caption_en": "The backup diagram for Sarsa: the root is a state–action pair, and below it are the successor state–action pair and the reward along the way."
+  },
+  {
+    "label": "fig-6-inline-7",
+    "pdf_page": 152,
+    "bbox": [205, 330, 447, 479],
+    "path": "assets/figures/ch06/fig-6-inline-7.png",
+    "caption_en": "The windy gridworld task (Example 6.5). Inset: a standard gridworld with start and goal states and a crosswind running upward through the middle; the strength of the wind is given below each column. The graph shows the results of applying ε-greedy Sarsa with ε = 0.1 and α = 0.5: the number of episodes completed by each time step, together with the Actions compass (up, down, right, left)."
+  },
+  {
+    "label": "fig-6-inline-8",
+    "pdf_page": 154,
+    "bbox": [204, 196, 432, 324],
+    "path": "assets/figures/ch06/fig-6-inline-8.png",
+    "caption_en": "The cliff-walking task (Example 6.6): an undiscounted episodic gridworld with start and goal states, where stepping into the region marked “The Cliff” incurs a reward of −100 and sends the agent instantly back to the start. The safer path (blue) and the optimal path (red) are both shown."
+  },
+  {
+    "label": "fig-6-inline-9",
+    "pdf_page": 154,
+    "bbox": [203, 366, 435, 511],
+    "path": "assets/figures/ch06/fig-6-inline-9.png",
+    "caption_en": "The performance of Sarsa and Q-learning on the cliff-walking task with ε-greedy action selection, ε = 0.1: the sum of rewards received during an episode, averaged over episodes."
+  },
+  {
+    "label": "fig-6-inline-10",
+    "pdf_page": 159,
+    "bbox": [232, 241, 462, 375],
+    "path": "assets/figures/ch06/fig-6-inline-10.png",
+    "caption_en": "Afterstates in the tic-tac-toe example: two different position–move pairs on the left (X in different squares) produce the same afterposition (bottom), so an afterstate value function assesses both pairs equally, whereas a conventional action-value function would have to assess them separately."
+  }
+]

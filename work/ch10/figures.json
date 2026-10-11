@@ -1,0 +1,37 @@
+[
+  {
+    "label": "Figure 10.1",
+    "pdf_page": 267,
+    "bbox": [76, 62, 477, 313],
+    "path": "assets/figures/ch10/fig-10-1.png",
+    "caption_en": "The Mountain Car task (upper left panel) and the cost-to-go function (- max_a q-hat(s, a, w)) learned during one run."
+  },
+  {
+    "label": "Figure 10.2",
+    "pdf_page": 268,
+    "bbox": [68, 332, 373, 480],
+    "path": "assets/figures/ch10/fig-10-2.png",
+    "caption_en": "Mountain Car learning curves for the semi-gradient Sarsa method with tile-coding function approximation and epsilon-greedy action selection."
+  },
+  {
+    "label": "Figure 10.3",
+    "pdf_page": 270,
+    "bbox": [68, 66, 373, 212],
+    "path": "assets/figures/ch10/fig-10-3.png",
+    "caption_en": "Performance of one-step vs 8-step semi-gradient Sarsa on the Mountain Car task. Good step sizes were used: alpha = 0.5/8 for n = 1 and alpha = 0.3/8 for n = 8."
+  },
+  {
+    "label": "Figure 10.4",
+    "pdf_page": 270,
+    "bbox": [56, 264, 372, 412],
+    "path": "assets/figures/ch10/fig-10-4.png",
+    "caption_en": "Effect of the alpha and n on early performance of n-step semi-gradient Sarsa and tile-coding function approximation on the Mountain Car task. As usual, an intermediate level of bootstrapping (n = 4) performed best. These results are for selected alpha values, on a log scale, and then connected by straight lines. The standard errors ranged from 0.5 (less than the line width) for n = 1 to about 4 for n = 16, so the main effects are all statistically significant."
+  },
+  {
+    "label": "Figure 10.5",
+    "pdf_page": 274,
+    "bbox": [86, 332, 398, 562],
+    "path": "assets/figures/ch10/fig-10-5.png",
+    "caption_en": "The policy and value function found by differential semi-gradient one-step Sarsa on the access-control queuing task after 2 million steps. The drop on the right of the graph is probably due to insufficient data; many of these states were never experienced. The value learned for R-bar was about 2.31. (Note that priority 1 here is the lowest priority.)"
+  }
+]

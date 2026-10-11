@@ -1,4 +1,7 @@
-work/
+# work/ 下的翻译记录（各章英文原文、公式代码、插图清单、校对报告）入库，
+# 只排除本地的页面渲染缓存与临时产物。
+work/pages/
+work/scratch/
 preview/
 .venv/
 __pycache__/

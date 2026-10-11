@@ -1,0 +1,30 @@
+[
+  {
+    "label": "fig-13-inline-1",
+    "pdf_page": 345,
+    "bbox": [86, 411, 400, 566],
+    "path": "assets/figures/ch13/fig-13-inline-1.png",
+    "caption_en": "The short-corridor gridworld of Example 13.1 (inset, with switched actions in the middle state) and the value J(theta) = v_{pi_theta}(S) of the start state as a function of the probability of the right action, marking the two policies available to epsilon-greedy action-value methods (epsilon-greedy right, worth about -44; epsilon-greedy left, worth about -82) and the optimal stochastic policy at about 0.59, worth about -11.6."
+  },
+  {
+    "label": "Figure 13.1",
+    "pdf_page": 350,
+    "bbox": [53, 409.5, 381, 580],
+    "path": "assets/figures/ch13/fig-13-1.png",
+    "caption_en": "REINFORCE on the short-corridor gridworld (Example 13.1). With a good step size, the total reward per episode approaches the optimal value of the start state."
+  },
+  {
+    "label": "Figure 13.2",
+    "pdf_page": 352,
+    "bbox": [49, 384, 371, 566],
+    "path": "assets/figures/ch13/fig-13-2.png",
+    "caption_en": "Adding a baseline to REINFORCE can make it learn much faster, as illustrated here on the short-corridor gridworld (Example 13.1). The step size used here for plain REINFORCE is that at which it performs best (to the nearest power of two; see Figure 13.1)."
+  },
+  {
+    "label": "fig-13-inline-2",
+    "pdf_page": 357,
+    "bbox": [267.5, 372, 479, 516],
+    "path": "assets/figures/ch13/fig-13-inline-2.png",
+    "caption_en": "Normal probability density functions for several different means and standard deviations: mu = 0 with sigma^2 = 0.2, 1.0, and 5.0, and mu = -2 with sigma^2 = 0.5. The figure on book page 335 is adapted from Wikipedia."
+  }
+]

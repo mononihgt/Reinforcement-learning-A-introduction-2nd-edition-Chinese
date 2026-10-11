@@ -1,0 +1,44 @@
+[
+  {
+    "label": "Figure 2.1",
+    "pdf_page": 50,
+    "bbox": [38, 300, 432, 562],
+    "path": "assets/figures/ch02/fig-2-1.png",
+    "caption_en": "An example bandit problem from the 10-armed testbed. The true value q_*(a) of each of the ten actions was selected according to a normal distribution with mean zero and unit variance, and then the actual rewards were selected according to a mean q_*(a), unit-variance normal distribution, as suggested by these gray distributions."
+  },
+  {
+    "label": "Figure 2.2",
+    "pdf_page": 51,
+    "bbox": [118, 285, 420, 572],
+    "path": "assets/figures/ch02/fig-2-2.png",
+    "caption_en": "Average performance of ε-greedy action-value methods on the 10-armed testbed. These data are averages over 2000 runs with different bandit problems. All methods used sample averages as their action-value estimates."
+  },
+  {
+    "label": "Figure 2.3",
+    "pdf_page": 56,
+    "bbox": [70, 425, 398, 578],
+    "path": "assets/figures/ch02/fig-2-3.png",
+    "caption_en": "The effect of optimistic initial action-value estimates on the 10-armed testbed. Both methods used a constant step-size parameter, α = 0.1."
+  },
+  {
+    "label": "Figure 2.4",
+    "pdf_page": 58,
+    "bbox": [75, 342, 394, 496],
+    "path": "assets/figures/ch02/fig-2-4.png",
+    "caption_en": "Average performance of UCB action selection on the 10-armed testbed. As shown, UCB generally performs better than ε-greedy action selection, except in the first k steps, when it selects randomly among the as-yet-untried actions."
+  },
+  {
+    "label": "Figure 2.5",
+    "pdf_page": 60,
+    "bbox": [91, 68, 369, 230],
+    "path": "assets/figures/ch02/fig-2-5.png",
+    "caption_en": "Average performance of the gradient bandit algorithm with and without a reward baseline on the 10-armed testbed when the q_*(a) are chosen to be near +4 rather than near zero."
+  },
+  {
+    "label": "Figure 2.6",
+    "pdf_page": 64,
+    "bbox": [72, 396, 393, 568],
+    "path": "assets/figures/ch02/fig-2-6.png",
+    "caption_en": "A parameter study of the various bandit algorithms presented in this chapter. Each point is the average reward obtained over 1000 steps with a particular algorithm at a particular setting of its parameter."
+  }
+]

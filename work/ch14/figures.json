@@ -1,0 +1,65 @@
+[
+  {
+    "label": "fig-14-inline-1",
+    "pdf_page": 366,
+    "bbox": [222, 193, 441, 376],
+    "path": "assets/figures/ch14/fig-14-inline-1.png",
+    "caption_en": "The arrangement of stimuli in two common types of classical conditioning experiments is shown to the right. In delay conditioning, the CS extends throughout the interstimulus interval, or ISI, which is the time interval between the CS onset and the US onset (with the CS ending when the US ends in a common version shown here). In trace conditioning, the US begins after the CS ends, and the time interval between CS offset and US onset is called the trace interval."
+  },
+  {
+    "label": "Figure 14.1",
+    "pdf_page": 373,
+    "bbox": [157, 62, 382, 261],
+    "path": "assets/figures/ch14/fig-14-1.png",
+    "caption_en": "Three stimulus representations (in columns) sometimes used with the TD model. Each row represents one element of the stimulus representation. The three representations vary along a temporal generalization gradient, with no generalization between nearby time points in the complete serial compound (left column) and complete generalization between nearby time points in the presence representation (right column). The microstimulus representation occupies a middle ground. The degree of temporal generalization determines the temporal granularity with which US predictions are learned. Adapted with minor changes from Learning & Behavior, Evaluating the TD Model of Classical Conditioning, volume 40, 2012, p. 311, E. A. Ludvig, R. S. Sutton, E. J. Kehoe. With permission of Springer."
+  },
+  {
+    "label": "fig-14-inline-2",
+    "pdf_page": 375,
+    "bbox": [258, 173, 467, 347],
+    "path": "assets/figures/ch14/fig-14-inline-2.png",
+    "caption_en": "Facilitation of remote associations in the TD model"
+  },
+  {
+    "label": "fig-14-inline-3",
+    "pdf_page": 375,
+    "bbox": [258, 404, 466, 587.5],
+    "path": "assets/figures/ch14/fig-14-inline-3.png",
+    "caption_en": "The Egger-Miller effect in the TD model"
+  },
+  {
+    "label": "Figure 14.2",
+    "pdf_page": 376,
+    "bbox": [235, 121.5, 445, 296],
+    "path": "assets/figures/ch14/fig-14-2.png",
+    "caption_en": "Temporal primacy overriding blocking in the TD model."
+  },
+  {
+    "label": "Figure 14.3",
+    "pdf_page": 377,
+    "bbox": [64, 66, 272, 248],
+    "path": "assets/figures/ch14/fig-14-3.png",
+    "caption_en": "Second-order conditioning with the TD model."
+  },
+  {
+    "label": "Figure 14.4",
+    "pdf_page": 378,
+    "bbox": [36, 291, 448, 415],
+    "path": "assets/figures/ch14/fig-14-4.png",
+    "caption_en": "Time course of US prediction over the course of acquisition for the TD model with three different stimulus representations. Left: With the complete serial compound (CSC), the US prediction increases exponentially through the interval, peaking at the time of the US. At asymptote (trial 200), the US prediction peaks at the US intensity (1 in these simulations). Middle: With the presence representation, the US prediction converges to an almost constant level. This constant level is determined by the US intensity and the length of the CS–US interval. Right: With the microstimulus representation, at asymptote, the TD model approximates the exponentially increasing time course depicted with the CSC through a linear combination of the different microstimuli. Adapted with minor changes from Learning & Behavior, Evaluating the TD Model of Classical Conditioning, volume 40, 2012, p. 311, E. A. Ludvig, R. S. Sutton, E. J. Kehoe. With permission of Springer."
+  },
+  {
+    "label": "fig-14-inline-4",
+    "pdf_page": 380,
+    "bbox": [234, 158, 414, 281],
+    "path": "assets/figures/ch14/fig-14-inline-4.png",
+    "caption_en": "One of Thorndike's puzzle boxes. Reprinted from Thorndike, Animal Intelligence: An Experimental Study of the Associative Processes in Animals, The Psychological Review, Series of Monograph Supplements II(4), Macmillan, New York, 1898."
+  },
+  {
+    "label": "Figure 14.5",
+    "pdf_page": 387,
+    "bbox": [130, 238, 404, 476],
+    "path": "assets/figures/ch14/fig-14-5.png",
+    "caption_en": "Model-based and model-free strategies to solve a hypothetical sequential action-selection problem. Top: a rat navigates a maze with distinctive goal boxes, each associated with a reward having the value shown. Lower left: a model-free strategy relies on stored action values for all the state–action pairs obtained over many learning trials. To make decisions the rat just has to select at each state the action with the largest action value for that state. Lower right: in a model-based strategy, the rat learns an environment model, consisting of knowledge of state–action-next-state transitions and a reward model consisting of knowledge of the reward associated with each distinctive goal box. The rat can decide which way to turn at each state by using the model to simulate sequences of action choices to find a path yielding the highest return. Adapted from Trends in Cognitive Science, volume 10, number 8, Y. Niv, D. Joel, and P. Dayan, A Normative Perspective on Motivation, p. 376, 2006, with permission from Elsevier."
+  }
+]

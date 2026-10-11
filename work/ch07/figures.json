@@ -1,0 +1,51 @@
+[
+  {
+    "label": "Figure 7.1",
+    "pdf_page": 164,
+    "bbox": [106, 250, 360, 472],
+    "path": "assets/figures/ch07/fig-7-1.png",
+    "caption_en": "The backup diagrams of n-step methods. These methods form a spectrum ranging from one-step TD methods to Monte Carlo methods."
+  },
+  {
+    "label": "Figure 7.2",
+    "pdf_page": 167,
+    "bbox": [118, 280, 380, 446],
+    "path": "assets/figures/ch07/fig-7-2.png",
+    "caption_en": "Performance of n-step TD methods as a function of α, for various values of n, on a 19-state random walk task (Example 7.1)."
+  },
+  {
+    "label": "Figure 7.3",
+    "pdf_page": 168,
+    "bbox": [54, 326, 416, 548],
+    "path": "assets/figures/ch07/fig-7-3.png",
+    "caption_en": "The backup diagrams for the spectrum of n-step methods for state–action values. They range from the one-step update of Sarsa(0) to the up-until-termination update of the Monte Carlo method. In between are the n-step updates, based on n steps of real rewards and the estimated value of the nth next state–action pair, all appropriately discounted. On the far right is the backup diagram for n-step Expected Sarsa."
+  },
+  {
+    "label": "Figure 7.4",
+    "pdf_page": 169,
+    "bbox": [88, 400, 452, 514],
+    "path": "assets/figures/ch07/fig-7-4.png",
+    "caption_en": "Gridworld example of the speedup of policy learning due to the use of n-step methods. The first panel shows the path taken by an agent in a single episode, ending at a location of high reward, marked by the G. In this example the values were all initially 0, and all rewards were zero except for a positive reward at G. The arrows in the other two panels show which action values were strengthened as a result of this path by one-step and n-step Sarsa methods. The one-step method strengthens only the last action of the sequence of actions that led to the high reward, whereas the n-step method strengthens the last n actions of the sequence, so that much more is learned from the one episode."
+  },
+  {
+    "label": "Figure 7.5",
+    "pdf_page": 177,
+    "bbox": [134, 67, 406, 268],
+    "path": "assets/figures/ch07/fig-7-5.png",
+    "caption_en": "The backup diagrams of the three kinds of n-step action-value updates considered so far in this chapter (4-step case) plus the backup diagram of a fourth kind of update that unifies them all. The label ‘ρ’ indicates half transitions on which importance sampling is required in the off-policy case. The fourth kind of update unifies all the others by choosing on a state-by-state basis whether to sample (σ_t = 1) or not (σ_t = 0)."
+  },
+  {
+    "label": "fig-7-inline-1",
+    "pdf_page": 174,
+    "bbox": [368, 212, 426, 426],
+    "path": "assets/figures/ch07/fig-7-inline-1.png",
+    "caption_en": "the 3-step tree-backup update"
+  },
+  {
+    "label": "fig-7-inline-2",
+    "pdf_page": 179,
+    "bbox": [372, 156, 462, 386],
+    "path": "assets/figures/ch07/fig-7-inline-2.png",
+    "caption_en": "The two 4-step backup diagrams at the right of the Summary. Left: the state-value update for n-step TD with importance sampling. Right: the action-value update for n-step Q(σ), which generalizes Expected Sarsa and Q-learning; the labels ‘σ=1’ and ‘σ=0’ mark the sampling decision at each state, and ‘ρ’ marks the half transitions on which importance sampling is required in the off-policy case."
+  }
+]

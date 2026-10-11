@@ -1,0 +1,9 @@
+[
+  {
+    "label": "Figure 17.1",
+    "pdf_page": 488,
+    "bbox": [152, 66, 314, 230],
+    "path": "assets/figures/ch17/fig-17-1.png",
+    "caption_en": "A conceptual agent architecture including a model, a planner, and a state-update function. The world in this case receives actions A and emits observations O. The observations and a copy of the action are used by the state-update function u to produce the new state. The new state is input to the policy and value function, producing the next action, and is also input to the planner (and to u). The information flows most responsible for learning are shown by dashed lines that pass diagonally across the boxes that they change. The reward R directly changes the policy and value function. The action, reward, and state change the model, which works closely with the planner to also change the policy and value function. Note that the operation of the planner can be decoupled from the agent–environment interaction, whereas the other processes should operate in lock step with this interaction to keep up with the arrival of new data. Also note that the model and planner do not deal with observations directly, but only with the states produced by u, which can act as targets for model learning."
+  }
+]

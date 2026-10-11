@@ -1,0 +1,121 @@
+[
+  {
+    "label": "Figure 9.1",
+    "pdf_page": 226,
+    "bbox": [95, 74, 374, 222],
+    "path": "assets/figures/ch09/fig-9-1.png",
+    "caption_en": "Function approximation by state aggregation on the 1000-state random walk task, using the gradient Monte Carlo algorithm (page 202)."
+  },
+  {
+    "label": "Figure 9.2",
+    "pdf_page": 230,
+    "bbox": [39, 423, 429, 554],
+    "path": "assets/figures/ch09/fig-9-2.png",
+    "caption_en": "Bootstrapping with state aggregation on the 1000-state random walk task. Left: Asymptotic values of semi-gradient TD are worse than the asymptotic Monte Carlo values in Figure 9.1. Right: Performance of n-step methods with state-aggregation are strikingly similar to those with tabular representations (cf. Figure 7.2). These data are averages over 100 runs."
+  },
+  {
+    "label": "Figure 9.3",
+    "pdf_page": 234,
+    "bbox": [31, 352, 437, 438],
+    "path": "assets/figures/ch09/fig-9-3.png",
+    "caption_en": "One-dimensional Fourier cosine-basis features x_i, i = 1, 2, 3, 4, for approximating functions over the interval [0, 1]. After Konidaris et al. (2011)."
+  },
+  {
+    "label": "Figure 9.4",
+    "pdf_page": 235,
+    "bbox": [45, 263, 475, 489],
+    "path": "assets/figures/ch09/fig-9-4.png",
+    "caption_en": "A selection of six two-dimensional Fourier cosine features, each labeled by the vector c^i that defines it (s_1 is the horizontal axis, and c^i is shown with the index i omitted). After Konidaris et al. (2011)."
+  },
+  {
+    "label": "Figure 9.5",
+    "pdf_page": 236,
+    "bbox": [122, 349, 357, 511],
+    "path": "assets/figures/ch09/fig-9-5.png",
+    "caption_en": "Fourier basis vs polynomials on the 1000-state random walk. Shown are learning curves for the gradient Monte Carlo method with Fourier and polynomial bases of order 5, 10, and 20. The step-size parameters were roughly optimized for each case: alpha = 0.0001 for the polynomial basis and alpha = 0.00005 for the Fourier basis. The performance measure (y-axis) is the root mean square value error (9.1)."
+  },
+  {
+    "label": "Figure 9.6",
+    "pdf_page": 237,
+    "bbox": [299, 108, 461, 246],
+    "path": "assets/figures/ch09/fig-9-6.png",
+    "caption_en": "Coarse coding. Generalization from state s to state s' depends on the number of their features whose receptive fields (in this case, circles) overlap. These states have one feature in common, so there will be slight generalization between them."
+  },
+  {
+    "label": "Figure 9.7",
+    "pdf_page": 237,
+    "bbox": [66, 430, 492, 570],
+    "path": "assets/figures/ch09/fig-9-7.png",
+    "caption_en": "Generalization in linear function approximation methods is determined by the sizes and shapes of the features' receptive fields. All three of these cases have roughly the same number and density of features."
+  },
+  {
+    "label": "Figure 9.8",
+    "pdf_page": 238,
+    "bbox": [67, 395, 403, 577],
+    "path": "assets/figures/ch09/fig-9-8.png",
+    "caption_en": "Example of feature width's strong effect on initial generalization (first row) and weak effect on asymptotic accuracy (last row)."
+  },
+  {
+    "label": "Figure 9.9",
+    "pdf_page": 239,
+    "bbox": [71, 247, 467, 390],
+    "path": "assets/figures/ch09/fig-9-9.png",
+    "caption_en": "Multiple, overlapping grid-tilings on a limited two-dimensional space. These tilings are offset from one another by a uniform amount in each dimension."
+  },
+  {
+    "label": "Figure 9.10",
+    "pdf_page": 240,
+    "bbox": [155, 69, 321, 212],
+    "path": "assets/figures/ch09/fig-9-10.png",
+    "caption_en": "Why we use coarse coding. Shown are learning curves on the 1000-state random walk example for the gradient Monte Carlo algorithm with a single tiling and with multiple tilings. The space of 1000 states was treated as a single continuous dimension, covered with tiles each 200 states wide. The multiple tilings were offset from each other by 4 states. The step-size parameter was set so that the initial learning rate in the two cases was the same, alpha = 0.0001 for the single tiling and alpha = 0.0001/50 for the 50 tilings."
+  },
+  {
+    "label": "Figure 9.11",
+    "pdf_page": 241,
+    "bbox": [74, 63, 471, 384],
+    "path": "assets/figures/ch09/fig-9-11.png",
+    "caption_en": "Why tile asymmetrical offsets are preferred in tile coding. Shown is the strength of generalization from a trained state, indicated by the small black plus, to nearby states, for the case of eight tilings. If the tilings are uniformly offset (above), then there are diagonal artifacts and substantial variations in the generalization, whereas with asymmetrically offset tilings the generalization is more spherical and homogeneous."
+  },
+  {
+    "label": "Figure 9.12",
+    "pdf_page": 242,
+    "bbox": [91, 360, 377, 464],
+    "path": "assets/figures/ch09/fig-9-12.png",
+    "caption_en": "Tilings need not be grids. They can be arbitrarily shaped and non-uniform, while still in many cases being computationally efficient to compute."
+  },
+  {
+    "label": "Figure 9.13",
+    "pdf_page": 243,
+    "bbox": [161, 517, 373, 581],
+    "path": "assets/figures/ch09/fig-9-13.png",
+    "caption_en": "One-dimensional radial basis functions."
+  },
+  {
+    "label": "Figure 9.14",
+    "pdf_page": 246,
+    "bbox": [118, 60, 358, 243],
+    "path": "assets/figures/ch09/fig-9-14.png",
+    "caption_en": "A generic feedforward ANN with four input units, two output units, and two hidden layers."
+  },
+  {
+    "label": "Figure 9.15",
+    "pdf_page": 249,
+    "bbox": [73, 449, 451, 569],
+    "path": "assets/figures/ch09/fig-9-15.png",
+    "caption_en": "Deep Convolutional Network. Republished with permission of Proceedings of the IEEE, from Gradient-based learning applied to document recognition, LeCun, Bottou, Bengio, and Haffner, volume 86, 1998; permission conveyed through Copyright Clearance Center, Inc."
+  },
+  {
+    "label": "fig-9-inline-1",
+    "pdf_page": 243,
+    "bbox": [365, 151, 462, 248],
+    "path": "assets/figures/ch09/fig-9-inline-1.png",
+    "caption_en": "one tile might consist of the four subtiles shown to the right"
+  },
+  {
+    "label": "fig-9-inline-2",
+    "pdf_page": 257,
+    "bbox": [110, 158, 455, 225],
+    "path": "assets/figures/ch09/fig-9-inline-2.png",
+    "caption_en": "The four-state Markov reward process of Example 9.4: above each state is its interest i (1 for the leftmost state, 0 for the others), and below each state is its true value v_pi = 4, 3, 2, 1. The states are labeled by the parameter components w_1, w_1, w_2, w_2 used to estimate them. Each transition to the right gives a reward of +1 and ends at the terminal square."
+  }
+]

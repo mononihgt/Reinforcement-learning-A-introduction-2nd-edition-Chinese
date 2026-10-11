@@ -1,0 +1,86 @@
+[
+  {
+    "label": "fig-11-inline-1",
+    "pdf_page": 282,
+    "bbox": [196, 228, 277, 255],
+    "path": "assets/figures/ch11/fig-11-inline-1.png",
+    "caption_en": "A two-state fragment whose estimated values are w and 2w: from the first state a single action transitions deterministically to the second state with a reward of 0. The expressions inside the two circles indicate the two states' values."
+  },
+  {
+    "label": "Figure 11.1",
+    "pdf_page": 283,
+    "bbox": [103, 393, 443, 560],
+    "path": "assets/figures/ch11/fig-11-1.png",
+    "caption_en": "Baird's counterexample. The approximate state-value function for this Markov process is of the form shown by the linear expressions inside each state. The solid action usually results in the seventh state, and the dashed action usually results in one of the other six states, each with equal probability. The reward is always zero."
+  },
+  {
+    "label": "Figure 11.2",
+    "pdf_page": 284,
+    "bbox": [56, 367, 424, 569],
+    "path": "assets/figures/ch11/fig-11-2.png",
+    "caption_en": "Demonstration of instability on Baird's counterexample. Shown are the evolution of the components of the parameter vector w of the two semi-gradient algorithms. The step size was alpha = 0.01, and the initial weights were w = (1, 1, 1, 1, 1, 1, 10, 1)^T."
+  },
+  {
+    "label": "fig-11-inline-2",
+    "pdf_page": 285,
+    "bbox": [350, 370, 462, 468],
+    "path": "assets/figures/ch11/fig-11-inline-2.png",
+    "caption_en": "The w-to-2w example extended with a terminal state, as used in Example 11.1: from the second state (valued 2w), the process loops back to itself with probability 1 - epsilon and goes to the terminal state with probability epsilon. The reward is zero on all transitions, so the true values are zero at both states."
+  },
+  {
+    "label": "Figure 11.3",
+    "pdf_page": 289,
+    "bbox": [64, 66, 466, 267],
+    "path": "assets/figures/ch11/fig-11-3.png",
+    "caption_en": "The geometry of linear value-function approximation. Shown is the three-dimensional space of all value functions over three states, while shown as a plane is the subspace of all value functions representable by a linear function approximator with parameter w = (w_1, w_2)^T. The true value function v_pi is in the larger space and can be projected down (into the subspace, using a projection operator Pi) to its best approximation in the value error (VE) sense. The best approximators in the Bellman error (BE), projected Bellman error (PBE), and temporal difference error (TDE) senses are all potentially different and are shown in the lower right. (VE, BE, and PBE are all treated as the corresponding vectors in this figure.) The Bellman operator takes a value function in the plane to one outside, which can then be projected back. If you iteratively applied the Bellman operator outside the space (shown in gray above) you would reach the true value function, as in conventional dynamic programming. If instead you kept projecting back into the subspace at each step, as in the lower step shown in gray, then the fixed point would be the point of vector-zero PBE."
+  },
+  {
+    "label": "fig-11-inline-3",
+    "pdf_page": 293,
+    "bbox": [366, 168, 458, 234],
+    "path": "assets/figures/ch11/fig-11-inline-3.png",
+    "caption_en": "The three-state episodic MRP of the A-split example (Example 11.2): episodes begin in state A and split stochastically, half the time going to B (then terminating with a reward of 1) and half the time going to C (then terminating with a reward of zero). The reward for the first transition out of A is always zero."
+  },
+  {
+    "label": "fig-11-inline-4",
+    "pdf_page": 295,
+    "bbox": [345, 264, 445, 330],
+    "path": "assets/figures/ch11/fig-11-inline-4.png",
+    "caption_en": "The three-state episodic MRP of the A-presplit example (Example 11.3): episodes start in either A1 or A2, with equal probability; the two states look exactly the same to the function approximator, like a single state A (indicated by the dashed ellipse). From A1 the process goes to B with a reward of 0 and then terminates with a reward of 1; from A2 it goes to C and then terminates with both rewards zero."
+  },
+  {
+    "label": "fig-11-inline-5",
+    "pdf_page": 296,
+    "bbox": [92, 436, 388, 485],
+    "path": "assets/figures/ch11/fig-11-inline-5.png",
+    "caption_en": "The two Markov reward processes (MRPs) that appear identical to a learning algorithm. The left MRP stays in the same state and emits an endless stream of 0s and 2s at random, each with 0.5 probability. The right MRP, on every step, either stays in its current state or moves to the other state. All the states appear the same; they all produce the same single-component feature vector x = 1 and have approximated value w."
+  },
+  {
+    "label": "fig-11-inline-6",
+    "pdf_page": 298,
+    "bbox": [76, 132, 402, 190],
+    "path": "assets/figures/ch11/fig-11-inline-6.png",
+    "caption_en": "The pair of Markov reward processes of Example 11.4. The MRP on the left has two states that are represented distinctly. The MRP on the right has three states, two of which, B and B', appear the same and must be given the same approximate value. Where two edges leave a state, both transitions are assumed to occur with equal probability, and the numbers indicate the reward received."
+  },
+  {
+    "label": "Figure 11.4",
+    "pdf_page": 299,
+    "bbox": [60, 78, 474, 246],
+    "path": "assets/figures/ch11/fig-11-4.png",
+    "caption_en": "Causal relationships among the data distribution, MDPs, and various objectives. Left, Monte Carlo objectives: Two different MDPs can produce the same data distribution yet also produce different VEs, proving that the VE objective cannot be determined from data and is not learnable. However, all such VEs must have the same optimal parameter vector, w*! Moreover, this same w* can be determined from another objective, the RE, which is uniquely determined from the data distribution. Thus w* and the RE are learnable even though the VEs are not. Right, Bootstrapping objectives: Two different MDPs can produce the same data distribution yet also produce different BEs and have different minimizing parameter vectors; these are not learnable from the data distribution. The PBE and TDE objectives and their (different) minima can be directly determined from data and thus are learnable."
+  },
+  {
+    "label": "Figure 11.5",
+    "pdf_page": 302,
+    "bbox": [56, 329, 413, 559],
+    "path": "assets/figures/ch11/fig-11-5.png",
+    "caption_en": "The behavior of the TDC algorithm on Baird's counterexample. On the left is shown a typical single run, and on the right is shown the expected behavior of this algorithm if the updates are done synchronously (analogous to (11.9), except for the two TDC parameter vectors). The step sizes were alpha = 0.005 and beta = 0.05."
+  },
+  {
+    "label": "Figure 11.6",
+    "pdf_page": 305,
+    "bbox": [132, 66, 414, 247],
+    "path": "assets/figures/ch11/fig-11-6.png",
+    "caption_en": "The behavior of the one-step Emphatic-TD algorithm in expectation on Baird's counterexample. The step size was alpha = 0.03."
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "label": "Figure 4.1",
+    "pdf_page": 99,
+    "bbox": [138, 96, 396, 494],
+    "path": "assets/figures/ch04/fig-4-1.png",
+    "caption_en": "Convergence of iterative policy evaluation on a small gridworld. The left column is the sequence of approximations of the state-value function for the random policy (all actions equally likely). The right column is the sequence of greedy policies corresponding to the value function estimates (arrows are shown for all actions achieving the maximum, and the numbers shown are rounded to two significant digits). The last policy is guaranteed only to be an improvement over the random policy, but in this case it, and all policies after the third iteration, are optimal."
+  },
+  {
+    "label": "Figure 4.2",
+    "pdf_page": 103,
+    "bbox": [88, 297, 449, 543],
+    "path": "assets/figures/ch04/fig-4-2.png",
+    "caption_en": "The sequence of policies found by policy iteration on Jack's car rental problem, and the final state-value function. The first five diagrams show, for each number of cars at each location at the end of the day, the number of cars to be moved from the first location to the second (negative numbers indicate transfers from the second location to the first). Each successive policy is a strict improvement over the previous policy, and the last policy is optimal."
+  },
+  {
+    "label": "Figure 4.3",
+    "pdf_page": 106,
+    "bbox": [204, 209, 425, 435],
+    "path": "assets/figures/ch04/fig-4-3.png",
+    "caption_en": "The solution to the gambler's problem for p_h = 0.4. The upper graph shows the value function found by successive sweeps of value iteration. The lower graph shows the final policy."
+  },
+  {
+    "label": "fig-4-inline-1",
+    "pdf_page": 98,
+    "bbox": [104, 97, 360, 184],
+    "path": "assets/figures/ch04/fig-4-inline-1.png",
+    "caption_en": "The 4x4 gridworld used in Example 4.1. The four actions (up, down, right, and left) are shown on the left, the two shaded cells (top-left and bottom-right) are the terminal states, and R_t = -1 on all transitions."
+  },
+  {
+    "label": "fig-4-inline-2",
+    "pdf_page": 108,
+    "bbox": [326, 315, 420, 464],
+    "path": "assets/figures/ch04/fig-4-inline-2.png",
+    "caption_en": "The generalized policy iteration (GPI) diagram: policy evaluation repeatedly drives the value function V toward v_pi for the current policy pi, policy improvement repeatedly drives pi toward the greedy policy of the current value function V, and the two processes together converge to v_* and pi_*."
+  },
+  {
+    "label": "fig-4-inline-3",
+    "pdf_page": 109,
+    "bbox": [310, 73, 470, 162],
+    "path": "assets/figures/ch04/fig-4-inline-3.png",
+    "caption_en": "The evaluation and improvement processes of GPI viewed as two lines in a two-dimensional space: the line v = v_pi for the evaluation goal and the line pi = greedy(v) for the improvement goal. Starting from an arbitrary (v, pi), each process drives the point toward its own line, and the two processes together approach the optimal point (v_*, pi_*)."
+  }
+]

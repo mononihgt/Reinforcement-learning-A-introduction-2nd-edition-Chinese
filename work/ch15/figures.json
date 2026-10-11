@@ -1,0 +1,44 @@
+[
+  {
+    "label": "fig-15-inline-1",
+    "pdf_page": 407,
+    "bbox": [291, 146, 468, 353],
+    "path": "assets/figures/ch15/fig-15-inline-1.png",
+    "caption_en": "Axonal arbor of a single neuron producing dopamine as a neurotransmitter. These axons make synaptic contacts with a huge number of dendrites of neurons in targeted brain areas. Adapted from The Journal of Neuroscience, Matsuda, Furuta, Nakamura, Hioki, Fujiyama, Arai, and Kaneko, volume 29, 2009, page 451."
+  },
+  {
+    "label": "Figure 15.1",
+    "pdf_page": 408,
+    "bbox": [112, 306, 352, 466],
+    "path": "assets/figures/ch15/fig-15-1.png",
+    "caption_en": "Spine of a striatal neuron showing input from both cortical and dopamine neurons. Axons of cortical neurons influence striatal neurons via corticostriatal synapses releasing the neurotransmitter glutamate at the tips of spines covering the dendrites of striatal neurons. An axon of a VTA or SNpc dopamine neuron is shown passing by the spine (from the lower right). “Dopamine varicosities” on this axon release dopamine at or near the spine stem, in an arrangement that brings together presynaptic input from cortex, postsynaptic activity of the striatal neuron, and dopamine, making it possible that several types of learning rules govern the plasticity of corticostriatal synapses. Each axon of a dopamine neuron makes synaptic contact with the stems of roughly 500,000 spines. Some of the complexity omitted from our discussion is shown here by other neurotransmitter pathways and multiple receptor types, such as D1 and D2 dopamine receptors by which dopamine can produce different effects at spines and other postsynaptic sites. From Journal of Neurophysiology, W. Schultz, vol. 80, 1998, page 10."
+  },
+  {
+    "label": "Figure 15.2",
+    "pdf_page": 410,
+    "bbox": [107, 316, 358, 491],
+    "path": "assets/figures/ch15/fig-15-2.png",
+    "caption_en": "The response of dopamine neurons shifts from initial responses to primary reward to earlier predictive stimuli. These are plots of the number of action potentials produced by monitored dopamine neurons within small time intervals, averaged over all the monitored dopamine neurons (ranging from 23 to 44 neurons for these data). Top: dopamine neurons are activated by the unpredicted delivery of drop of apple juice. Middle: with learning, dopamine neurons developed responses to the reward-predicting trigger cue and lost responsiveness to the delivery of reward. Bottom: with the addition of an instruction cue preceding the trigger cue by 1 second, dopamine neurons shifted their responses from the trigger cue to the earlier instruction cue. From Schultz et al. (1995), MIT Press."
+  },
+  {
+    "label": "Figure 15.3",
+    "pdf_page": 411,
+    "bbox": [263, 67, 442, 387],
+    "path": "assets/figures/ch15/fig-15-3.png",
+    "caption_en": "The response of dopamine neurons drops below baseline shortly after the time when an expected reward fails to occur. Top: dopamine neurons are activated by the unpredicted delivery of a drop of apple juice. Middle: dopamine neurons respond to a conditioned stimulus (CS) that predicts reward and do not respond to the reward itself. Bottom: when the reward predicted by the CS fails to occur, the activity of dopamine neurons drops below baseline shortly after the time the reward is expected to occur. At the top of each of these panels is shown the average number of action potentials produced by monitored dopamine neurons within small time intervals around the indicated times. The raster plots below show the activity patterns of the individual dopamine neurons that were monitored; each dot represents an action potential. From Schultz, Dayan, and Montague, A Neural Substrate of Prediction and Reward, Science, vol. 275, issue 5306, pages 1593-1598, March 14, 1997. Reprinted with permission from AAAS."
+  },
+  {
+    "label": "Figure 15.4",
+    "pdf_page": 413,
+    "bbox": [142, 310, 400, 498],
+    "path": "assets/figures/ch15/fig-15-4.png",
+    "caption_en": "The behavior of the TD error δ during TD learning is consistent with features of the phasic activation of dopamine neurons. (Here δ is the TD error available at time t, i.e., δ_{t−1}). Top: a sequence of states, shown as an interval of regular predictors, is followed by a non-zero reward R⋆. Early in learning: the initial value function, V, and initial δ, which at first is equal to R⋆. Learning complete: the value function accurately predicts future reward, δ is positive at the earliest predictive state, and δ = 0 at the time of the non-zero reward. R⋆ omitted: at the time the predicted reward is omitted, δ becomes negative. See text for a complete explanation of why this happens."
+  },
+  {
+    "label": "Figure 15.5",
+    "pdf_page": 418,
+    "bbox": [36, 238, 438, 466],
+    "path": "assets/figures/ch15/fig-15-5.png",
+    "caption_en": "Actor–critic ANN and a hypothetical neural implementation. a) Actor–critic algorithm as an ANN. The actor adjusts a policy based on the TD error δ it receives from the critic; the critic adjusts state-value parameters using the same δ. The critic produces a TD error from the reward signal, R, and the current change in its estimate of state values. The actor does not have direct access to the reward signal, and the critic does not have direct access to the action. b) Hypothetical neural implementation of an actor–critic algorithm. The actor and the value-learning part of the critic are respectively placed in the dorsal and ventral subdivisions of the striatum. The TD error is transmitted by dopamine neurons located in the VTA and SNpc to modulate changes in synaptic efficacies of input from cortical areas to the ventral and dorsal striatum. Adapted from Frontiers in Neuroscience, vol. 2(1), 2008, Y. Takahashi, G. Schoenbaum, and Y. Niv, Silencing the critics: Understanding the effects of cocaine sensitization on dorsolateral and ventral striatum in the context of an Actor/Critic model."
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "label": "Figure 5.1",
+    "pdf_page": 116,
+    "bbox": [86, 62, 386, 280],
+    "path": "assets/figures/ch05/fig-5-1.png",
+    "caption_en": "Approximate state-value functions for the blackjack policy that sticks only on 20 or 21, computed by Monte Carlo policy evaluation."
+  },
+  {
+    "label": "Figure 5.2",
+    "pdf_page": 122,
+    "bbox": [78, 70, 402, 286],
+    "path": "assets/figures/ch05/fig-5-2.png",
+    "caption_en": "The optimal policy and state-value function for blackjack, found by Monte Carlo ES. The state-value function shown was computed from the action-value function found by Monte Carlo ES."
+  },
+  {
+    "label": "Figure 5.3",
+    "pdf_page": 128,
+    "bbox": [66, 303, 385, 464],
+    "path": "assets/figures/ch05/fig-5-3.png",
+    "caption_en": "Weighted importance sampling produces lower error estimates of the value of a single blackjack state from off-policy episodes."
+  },
+  {
+    "label": "Figure 5.4",
+    "pdf_page": 129,
+    "bbox": [93, 114, 452, 314],
+    "path": "assets/figures/ch05/fig-5-4.png",
+    "caption_en": "Ordinary importance sampling produces surprisingly unstable estimates on the one-state MDP shown inset (Example 5.5). The correct estimate here is 1 (γ = 1), and, even though this is the expected value of a sample return (after importance sampling), the variance of the samples is infinite, and the estimates do not converge to this value. These results are for off-policy first-visit MC."
+  },
+  {
+    "label": "Figure 5.5",
+    "pdf_page": 134,
+    "bbox": [71, 68, 393, 245],
+    "path": "assets/figures/ch05/fig-5-5.png",
+    "caption_en": "A couple of right turns for the racetrack task."
+  },
+  {
+    "label": "fig-5-inline-1",
+    "pdf_page": 117,
+    "bbox": [435, 58, 475, 224],
+    "path": "assets/figures/ch05/fig-5-inline-1.png",
+    "caption_en": "The backup diagram for Monte Carlo estimation of v_pi: the root is a state node, and below it is the entire trajectory of transitions along a single episode, ending at the terminal state."
+  },
+  {
+    "label": "fig-5-inline-2",
+    "pdf_page": 117,
+    "bbox": [292, 294, 461, 407],
+    "path": "assets/figures/ch05/fig-5-inline-2.png",
+    "caption_en": "A bubble on a wire loop. From Hersh and Griego (1969). Reproduced with permission. ©1969 Scientific American, a division of Nature America, Inc. All rights reserved."
+  },
+  {
+    "label": "fig-5-inline-3",
+    "pdf_page": 119,
+    "bbox": [370, 222, 460, 312],
+    "path": "assets/figures/ch05/fig-5-inline-3.png",
+    "caption_en": "The generalized policy iteration (GPI) diagram: evaluation repeatedly drives the action-value function Q toward q_pi for the current policy pi, and improvement repeatedly drives pi toward the greedy policy of Q; the two processes create moving targets for each other while together approaching optimality."
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "label": "Figure 1.1",
+    "pdf_page": 32,
+    "bbox": [110, 71, 360, 308],
+    "path": "assets/figures/ch01/fig-1-1.png",
+    "caption_en": "A sequence of tic-tac-toe moves. The solid black lines represent the moves taken during a game; the dashed lines represent moves that we (our reinforcement learning player) considered but did not make. The * indicates the move currently estimated to be the best. Our second move was an exploratory move, meaning that it was taken even though another sibling move, the one leading to e∗, was ranked higher. Exploratory moves do not result in any learning, but each of our other moves does, causing updates as suggested by the red arrows in which estimated values are moved up the tree from later nodes to earlier nodes as detailed in the text."
+  },
+  {
+    "label": "fig-1-inline-1",
+    "pdf_page": 30,
+    "bbox": [336, 360, 419, 443],
+    "path": "assets/figures/ch01/fig-1-inline-1.png",
+    "caption_en": "An uncaptioned inline tic-tac-toe board printed to the right of the text: the top row is X O O, the middle row is O X X, and the bottom-right cell holds an X, so X has won with three in a row on the main diagonal."
+  }
+]

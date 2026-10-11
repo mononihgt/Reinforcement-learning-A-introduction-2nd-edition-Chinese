@@ -1,0 +1,114 @@
+[
+  {
+    "label": "Figure 12.1",
+    "pdf_page": 311,
+    "bbox": [148, 346, 474, 575],
+    "path": "assets/figures/ch12/fig-12-1.png",
+    "caption_en": "The backup diagram for TD(lambda). If lambda = 0, then the overall update reduces to its first component, the one-step TD update, whereas if lambda = 1, then the overall update reduces to its last component, the Monte Carlo update."
+  },
+  {
+    "label": "fig-12-inline-1",
+    "pdf_page": 311,
+    "bbox": [417, 64, 481, 266],
+    "path": "assets/figures/ch12/fig-12-inline-1.png",
+    "caption_en": "For example, the compound update for the case mentioned at the start of this section, mixing half of a two-step return and half of a four-step return, has the diagram shown to the right."
+  },
+  {
+    "label": "Figure 12.2",
+    "pdf_page": 312,
+    "bbox": [48, 62, 418, 198],
+    "path": "assets/figures/ch12/fig-12-2.png",
+    "caption_en": "Weighting given in the lambda-return to each of the n-step returns."
+  },
+  {
+    "label": "Figure 12.3",
+    "pdf_page": 313,
+    "bbox": [62, 226, 477, 404],
+    "path": "assets/figures/ch12/fig-12-3.png",
+    "caption_en": "19-state Random walk results (Example 7.1): Performance of the off-line lambda-return algorithm alongside that of the n-step TD methods. In both case, intermediate values of the bootstrapping parameter (lambda or n) performed best. The results with the off-line lambda-return algorithm are slightly better at the best values of alpha and lambda, and at high alpha."
+  },
+  {
+    "label": "Figure 12.4",
+    "pdf_page": 314,
+    "bbox": [50, 62, 418, 174],
+    "path": "assets/figures/ch12/fig-12-4.png",
+    "caption_en": "The forward view. We decide how to update each state by looking forward to future rewards and states."
+  },
+  {
+    "label": "Figure 12.5",
+    "pdf_page": 315,
+    "bbox": [98, 406, 436, 568],
+    "path": "assets/figures/ch12/fig-12-5.png",
+    "caption_en": "The backward or mechanistic view of TD(lambda). Each update depends on the current TD error combined with the current eligibility traces of past events."
+  },
+  {
+    "label": "Figure 12.6",
+    "pdf_page": 317,
+    "bbox": [71, 56, 470, 226],
+    "path": "assets/figures/ch12/fig-12-6.png",
+    "caption_en": "19-state Random walk results (Example 7.1): Performance of TD(lambda) alongside that of the off-line lambda-return algorithm. The two algorithms performed virtually identically at low (less than optimal) alpha values, but TD(lambda) was worse at high alpha values."
+  },
+  {
+    "label": "Figure 12.7",
+    "pdf_page": 318,
+    "bbox": [95, 398, 472, 592],
+    "path": "assets/figures/ch12/fig-12-7.png",
+    "caption_en": "The backup diagram for Truncated TD(lambda)."
+  },
+  {
+    "label": "Figure 12.8",
+    "pdf_page": 321,
+    "bbox": [73, 99, 467, 265],
+    "path": "assets/figures/ch12/fig-12-8.png",
+    "caption_en": "19-state Random walk results (Example 7.1): Performance of online and off-line lambda-return algorithms. The performance measure here is the VE at the end of the episode, which should be the best case for the off-line algorithm. Nevertheless, the online algorithm performs subtly better. For comparison, the lambda=0 line is the same for both methods."
+  },
+  {
+    "label": "Figure 12.9",
+    "pdf_page": 326,
+    "bbox": [105, 62, 475, 280],
+    "path": "assets/figures/ch12/fig-12-9.png",
+    "caption_en": "Sarsa(lambda)'s backup diagram. Compare with Figure 12.1."
+  },
+  {
+    "label": "fig-12-inline-2",
+    "pdf_page": 326,
+    "bbox": [38, 390, 442, 487],
+    "path": "assets/figures/ch12/fig-12-inline-2.png",
+    "caption_en": "The first panel shows the path taken by an agent in a single episode. The initial estimated values were zero, and all rewards were zero except for a positive reward at the goal location marked by G. The arrows in the other panels show, for various algorithms, which action-values would be increased, and by how much, upon reaching the goal."
+  },
+  {
+    "label": "Figure 12.10",
+    "pdf_page": 328,
+    "bbox": [36, 62, 466, 266],
+    "path": "assets/figures/ch12/fig-12-10.png",
+    "caption_en": "Early performance on the Mountain Car task of Sarsa(lambda) with replacing traces and n-step Sarsa (copied from Figure 10.4) as a function of the step size, alpha."
+  },
+  {
+    "label": "Figure 12.11",
+    "pdf_page": 328,
+    "bbox": [34, 358, 434, 543],
+    "path": "assets/figures/ch12/fig-12-11.png",
+    "caption_en": "Summary comparison of Sarsa(lambda) algorithms on the Mountain Car task. True online Sarsa(lambda) performed better than regular Sarsa(lambda) with both accumulating and replacing traces. Also included is a version of Sarsa(lambda) with replacing traces in which, on each time step, the traces for the state and the actions not selected were set to zero."
+  },
+  {
+    "label": "Figure 12.12",
+    "pdf_page": 335,
+    "bbox": [105, 60, 475, 302],
+    "path": "assets/figures/ch12/fig-12-12.png",
+    "caption_en": "The backup diagram for Watkins's Q(lambda). The series of component updates ends either with the end of the episode or with the first nongreedy action, whichever comes first."
+  },
+  {
+    "label": "Figure 12.13",
+    "pdf_page": 336,
+    "bbox": [105, 60, 478, 302],
+    "path": "assets/figures/ch12/fig-12-13.png",
+    "caption_en": "The backup diagram for the lambda version of the Tree Backup algorithm."
+  },
+  {
+    "label": "Figure 12.14",
+    "pdf_page": 340,
+    "bbox": [50, 66, 415, 350],
+    "path": "assets/figures/ch12/fig-12-14.png",
+    "caption_en": "The effect of lambda on reinforcement learning performance in four different test problems. In all cases, performance is generally best (a lower number in the graph) at an intermediate value of lambda. The two left panels are applications to simple continuous-state control tasks using the Sarsa(lambda) algorithm and tile coding, with either replacing or accumulating traces (Sutton, 1996). The upper-right panel is for policy evaluation on a random walk task using TD(lambda) (Singh and Sutton, 1996). The lower right panel is unpublished data for the pole-balancing task (Example 3.4) from an earlier study (Sutton, 1984)."
+  }
+]

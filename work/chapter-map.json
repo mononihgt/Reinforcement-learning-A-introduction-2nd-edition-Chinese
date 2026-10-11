@@ -1,0 +1,1148 @@
+[
+  {
+    "level": 1,
+    "title": "Preface to the Second Edition",
+    "pdf_page": 13,
+    "book_page": -9
+  },
+  {
+    "level": 1,
+    "title": "Preface to the First Edition",
+    "pdf_page": 17,
+    "book_page": -5
+  },
+  {
+    "level": 1,
+    "title": "Summary of Notation",
+    "pdf_page": 19,
+    "book_page": -3
+  },
+  {
+    "level": 1,
+    "title": "Introduction",
+    "pdf_page": 23,
+    "book_page": 1
+  },
+  {
+    "level": 2,
+    "title": "Reinforcement Learning",
+    "pdf_page": 23,
+    "book_page": 1
+  },
+  {
+    "level": 2,
+    "title": "Examples",
+    "pdf_page": 26,
+    "book_page": 4
+  },
+  {
+    "level": 2,
+    "title": "Elements of Reinforcement Learning",
+    "pdf_page": 28,
+    "book_page": 6
+  },
+  {
+    "level": 2,
+    "title": "Limitations and Scope",
+    "pdf_page": 29,
+    "book_page": 7
+  },
+  {
+    "level": 2,
+    "title": "An Extended Example: Tic-Tac-Toe",
+    "pdf_page": 30,
+    "book_page": 8
+  },
+  {
+    "level": 2,
+    "title": "Summary",
+    "pdf_page": 35,
+    "book_page": 13
+  },
+  {
+    "level": 2,
+    "title": "Early History of Reinforcement Learning",
+    "pdf_page": 35,
+    "book_page": 13
+  },
+  {
+    "level": 1,
+    "title": "I   Tabular Solution Methods",
+    "pdf_page": 45,
+    "book_page": 23
+  },
+  {
+    "level": 2,
+    "title": "Multi-armed Bandits",
+    "pdf_page": 47,
+    "book_page": 25
+  },
+  {
+    "level": 3,
+    "title": "A k-armed Bandit Problem",
+    "pdf_page": 47,
+    "book_page": 25
+  },
+  {
+    "level": 3,
+    "title": "Action-value Methods",
+    "pdf_page": 49,
+    "book_page": 27
+  },
+  {
+    "level": 3,
+    "title": "The 10-armed Testbed",
+    "pdf_page": 50,
+    "book_page": 28
+  },
+  {
+    "level": 3,
+    "title": "Incremental Implementation",
+    "pdf_page": 52,
+    "book_page": 30
+  },
+  {
+    "level": 3,
+    "title": "Tracking a Nonstationary Problem",
+    "pdf_page": 54,
+    "book_page": 32
+  },
+  {
+    "level": 3,
+    "title": "Optimistic Initial Values",
+    "pdf_page": 56,
+    "book_page": 34
+  },
+  {
+    "level": 3,
+    "title": "Upper-Confidence-Bound Action Selection",
+    "pdf_page": 57,
+    "book_page": 35
+  },
+  {
+    "level": 3,
+    "title": "Gradient Bandit Algorithms",
+    "pdf_page": 59,
+    "book_page": 37
+  },
+  {
+    "level": 3,
+    "title": "Associative Search (Contextual Bandits)",
+    "pdf_page": 63,
+    "book_page": 41
+  },
+  {
+    "level": 3,
+    "title": "Summary",
+    "pdf_page": 64,
+    "book_page": 42
+  },
+  {
+    "level": 2,
+    "title": "Finite Markov Decision Processes",
+    "pdf_page": 69,
+    "book_page": 47
+  },
+  {
+    "level": 3,
+    "title": "The Agent–Environment Interface",
+    "pdf_page": 69,
+    "book_page": 47
+  },
+  {
+    "level": 3,
+    "title": "Goals and Rewards",
+    "pdf_page": 75,
+    "book_page": 53
+  },
+  {
+    "level": 3,
+    "title": "Returns and Episodes",
+    "pdf_page": 76,
+    "book_page": 54
+  },
+  {
+    "level": 3,
+    "title": "Unified Notation for Episodic and Continuing Tasks",
+    "pdf_page": 79,
+    "book_page": 57
+  },
+  {
+    "level": 3,
+    "title": "Policies and Value Functions",
+    "pdf_page": 80,
+    "book_page": 58
+  },
+  {
+    "level": 3,
+    "title": "Optimal Policies and Optimal Value Functions",
+    "pdf_page": 84,
+    "book_page": 62
+  },
+  {
+    "level": 3,
+    "title": "Optimality and Approximation",
+    "pdf_page": 89,
+    "book_page": 67
+  },
+  {
+    "level": 3,
+    "title": "Summary",
+    "pdf_page": 90,
+    "book_page": 68
+  },
+  {
+    "level": 2,
+    "title": "Dynamic Programming",
+    "pdf_page": 95,
+    "book_page": 73
+  },
+  {
+    "level": 3,
+    "title": "Policy Evaluation (Prediction)",
+    "pdf_page": 96,
+    "book_page": 74
+  },
+  {
+    "level": 3,
+    "title": "Policy Improvement",
+    "pdf_page": 98,
+    "book_page": 76
+  },
+  {
+    "level": 3,
+    "title": "Policy Iteration",
+    "pdf_page": 102,
+    "book_page": 80
+  },
+  {
+    "level": 3,
+    "title": "Value Iteration",
+    "pdf_page": 104,
+    "book_page": 82
+  },
+  {
+    "level": 3,
+    "title": "Asynchronous Dynamic Programming",
+    "pdf_page": 107,
+    "book_page": 85
+  },
+  {
+    "level": 3,
+    "title": "Generalized Policy Iteration",
+    "pdf_page": 108,
+    "book_page": 86
+  },
+  {
+    "level": 3,
+    "title": "Efficiency of Dynamic Programming",
+    "pdf_page": 109,
+    "book_page": 87
+  },
+  {
+    "level": 3,
+    "title": "Summary",
+    "pdf_page": 110,
+    "book_page": 88
+  },
+  {
+    "level": 2,
+    "title": "Monte Carlo Methods",
+    "pdf_page": 113,
+    "book_page": 91
+  },
+  {
+    "level": 3,
+    "title": "Monte Carlo Prediction",
+    "pdf_page": 114,
+    "book_page": 92
+  },
+  {
+    "level": 3,
+    "title": "Monte Carlo Estimation of Action Values",
+    "pdf_page": 118,
+    "book_page": 96
+  },
+  {
+    "level": 3,
+    "title": "Monte Carlo Control",
+    "pdf_page": 119,
+    "book_page": 97
+  },
+  {
+    "level": 3,
+    "title": "Monte Carlo Control without Exploring Starts",
+    "pdf_page": 122,
+    "book_page": 100
+  },
+  {
+    "level": 3,
+    "title": "Off-policy Prediction via Importance Sampling",
+    "pdf_page": 125,
+    "book_page": 103
+  },
+  {
+    "level": 3,
+    "title": "Incremental Implementation",
+    "pdf_page": 131,
+    "book_page": 109
+  },
+  {
+    "level": 3,
+    "title": "Off-policy Monte Carlo Control",
+    "pdf_page": 132,
+    "book_page": 110
+  },
+  {
+    "level": 3,
+    "title": "*Discounting-aware Importance Sampling",
+    "pdf_page": 134,
+    "book_page": 112
+  },
+  {
+    "level": 3,
+    "title": "*Per-decision Importance Sampling",
+    "pdf_page": 136,
+    "book_page": 114
+  },
+  {
+    "level": 3,
+    "title": "Summary",
+    "pdf_page": 137,
+    "book_page": 115
+  },
+  {
+    "level": 2,
+    "title": "Temporal-Difference Learning",
+    "pdf_page": 141,
+    "book_page": 119
+  },
+  {
+    "level": 3,
+    "title": "TD Prediction",
+    "pdf_page": 141,
+    "book_page": 119
+  },
+  {
+    "level": 3,
+    "title": "Advantages of TD Prediction Methods",
+    "pdf_page": 146,
+    "book_page": 124
+  },
+  {
+    "level": 3,
+    "title": "Optimality of TD(0)",
+    "pdf_page": 148,
+    "book_page": 126
+  },
+  {
+    "level": 3,
+    "title": "Sarsa: On-policy TD Control",
+    "pdf_page": 151,
+    "book_page": 129
+  },
+  {
+    "level": 3,
+    "title": "Q-learning: Off-policy TD Control",
+    "pdf_page": 153,
+    "book_page": 131
+  },
+  {
+    "level": 3,
+    "title": "Expected Sarsa",
+    "pdf_page": 155,
+    "book_page": 133
+  },
+  {
+    "level": 3,
+    "title": "Maximization Bias and Double Learning",
+    "pdf_page": 156,
+    "book_page": 134
+  },
+  {
+    "level": 3,
+    "title": "Games, Afterstates, and Other Special Cases",
+    "pdf_page": 158,
+    "book_page": 136
+  },
+  {
+    "level": 3,
+    "title": "Summary",
+    "pdf_page": 160,
+    "book_page": 138
+  },
+  {
+    "level": 2,
+    "title": "n-step Bootstrapping",
+    "pdf_page": 163,
+    "book_page": 141
+  },
+  {
+    "level": 3,
+    "title": "n-step TD Prediction",
+    "pdf_page": 164,
+    "book_page": 142
+  },
+  {
+    "level": 3,
+    "title": "n-step Sarsa",
+    "pdf_page": 167,
+    "book_page": 145
+  },
+  {
+    "level": 3,
+    "title": "n-step Off-policy Learning",
+    "pdf_page": 170,
+    "book_page": 148
+  },
+  {
+    "level": 3,
+    "title": "*Per-decision Methods with Control Variates",
+    "pdf_page": 172,
+    "book_page": 150
+  },
+  {
+    "level": 3,
+    "title": "Off-policy Learning Without Importance Sampling: The n-step Tree Backup Algorithm",
+    "pdf_page": 174,
+    "book_page": 152
+  },
+  {
+    "level": 3,
+    "title": "*A Unifying Algorithm: n-step Q()",
+    "pdf_page": 176,
+    "book_page": 154
+  },
+  {
+    "level": 3,
+    "title": "Summary",
+    "pdf_page": 179,
+    "book_page": 157
+  },
+  {
+    "level": 2,
+    "title": "Planning and Learning with Tabular Methods",
+    "pdf_page": 181,
+    "book_page": 159
+  },
+  {
+    "level": 3,
+    "title": "Models and Planning",
+    "pdf_page": 181,
+    "book_page": 159
+  },
+  {
+    "level": 3,
+    "title": "Dyna: Integrated Planning, Acting, and Learning",
+    "pdf_page": 183,
+    "book_page": 161
+  },
+  {
+    "level": 3,
+    "title": "When the Model Is Wrong",
+    "pdf_page": 188,
+    "book_page": 166
+  },
+  {
+    "level": 3,
+    "title": "Prioritized Sweeping",
+    "pdf_page": 190,
+    "book_page": 168
+  },
+  {
+    "level": 3,
+    "title": "Expected vs. Sample Updates",
+    "pdf_page": 194,
+    "book_page": 172
+  },
+  {
+    "level": 3,
+    "title": "Trajectory Sampling",
+    "pdf_page": 196,
+    "book_page": 174
+  },
+  {
+    "level": 3,
+    "title": "Real-time Dynamic Programming",
+    "pdf_page": 199,
+    "book_page": 177
+  },
+  {
+    "level": 3,
+    "title": "Planning at Decision Time",
+    "pdf_page": 202,
+    "book_page": 180
+  },
+  {
+    "level": 3,
+    "title": "Heuristic Search",
+    "pdf_page": 203,
+    "book_page": 181
+  },
+  {
+    "level": 3,
+    "title": "Rollout Algorithms",
+    "pdf_page": 205,
+    "book_page": 183
+  },
+  {
+    "level": 3,
+    "title": "Monte Carlo Tree Search",
+    "pdf_page": 207,
+    "book_page": 185
+  },
+  {
+    "level": 3,
+    "title": "Summary of the Chapter",
+    "pdf_page": 210,
+    "book_page": 188
+  },
+  {
+    "level": 3,
+    "title": "Summary of Part I: Dimensions",
+    "pdf_page": 211,
+    "book_page": 189
+  },
+  {
+    "level": 1,
+    "title": "II   Approximate Solution Methods",
+    "pdf_page": 217,
+    "book_page": 195
+  },
+  {
+    "level": 2,
+    "title": "On-policy Prediction with Approximation",
+    "pdf_page": 219,
+    "book_page": 197
+  },
+  {
+    "level": 3,
+    "title": "Value-function Approximation",
+    "pdf_page": 220,
+    "book_page": 198
+  },
+  {
+    "level": 3,
+    "title": "The Prediction Objective (VE)",
+    "pdf_page": 221,
+    "book_page": 199
+  },
+  {
+    "level": 3,
+    "title": "Stochastic-gradient and Semi-gradient Methods",
+    "pdf_page": 222,
+    "book_page": 200
+  },
+  {
+    "level": 3,
+    "title": "Linear Methods",
+    "pdf_page": 226,
+    "book_page": 204
+  },
+  {
+    "level": 3,
+    "title": "Feature Construction for Linear Methods",
+    "pdf_page": 232,
+    "book_page": 210
+  },
+  {
+    "level": 4,
+    "title": "Polynomials",
+    "pdf_page": 232,
+    "book_page": 210
+  },
+  {
+    "level": 4,
+    "title": "Fourier Basis",
+    "pdf_page": 233,
+    "book_page": 211
+  },
+  {
+    "level": 4,
+    "title": "Coarse Coding",
+    "pdf_page": 237,
+    "book_page": 215
+  },
+  {
+    "level": 4,
+    "title": "Tile Coding",
+    "pdf_page": 239,
+    "book_page": 217
+  },
+  {
+    "level": 4,
+    "title": "Radial Basis Functions",
+    "pdf_page": 243,
+    "book_page": 221
+  },
+  {
+    "level": 3,
+    "title": "Selecting Step-Size Parameters Manually",
+    "pdf_page": 244,
+    "book_page": 222
+  },
+  {
+    "level": 3,
+    "title": "Nonlinear Function Approximation: Artificial Neural Networks",
+    "pdf_page": 245,
+    "book_page": 223
+  },
+  {
+    "level": 3,
+    "title": "Least-Squares TD",
+    "pdf_page": 250,
+    "book_page": 228
+  },
+  {
+    "level": 3,
+    "title": "Memory-based Function Approximation",
+    "pdf_page": 252,
+    "book_page": 230
+  },
+  {
+    "level": 3,
+    "title": "Kernel-based Function Approximation",
+    "pdf_page": 254,
+    "book_page": 232
+  },
+  {
+    "level": 3,
+    "title": "Looking Deeper at On-policy Learning: Interest and Emphasis",
+    "pdf_page": 256,
+    "book_page": 234
+  },
+  {
+    "level": 3,
+    "title": "Summary",
+    "pdf_page": 258,
+    "book_page": 236
+  },
+  {
+    "level": 2,
+    "title": "On-policy Control with Approximation",
+    "pdf_page": 265,
+    "book_page": 243
+  },
+  {
+    "level": 3,
+    "title": "Episodic Semi-gradient Control",
+    "pdf_page": 265,
+    "book_page": 243
+  },
+  {
+    "level": 3,
+    "title": "Semi-gradient n-step Sarsa",
+    "pdf_page": 269,
+    "book_page": 247
+  },
+  {
+    "level": 3,
+    "title": "Average Reward: A New Problem Setting for Continuing Tasks",
+    "pdf_page": 271,
+    "book_page": 249
+  },
+  {
+    "level": 3,
+    "title": "Deprecating the Discounted Setting",
+    "pdf_page": 275,
+    "book_page": 253
+  },
+  {
+    "level": 3,
+    "title": "Differential Semi-gradient n-step Sarsa",
+    "pdf_page": 277,
+    "book_page": 255
+  },
+  {
+    "level": 3,
+    "title": "Summary",
+    "pdf_page": 278,
+    "book_page": 256
+  },
+  {
+    "level": 2,
+    "title": "*Off-policy Methods with Approximation",
+    "pdf_page": 279,
+    "book_page": 257
+  },
+  {
+    "level": 3,
+    "title": "Semi-gradient Methods",
+    "pdf_page": 280,
+    "book_page": 258
+  },
+  {
+    "level": 3,
+    "title": "Examples of Off-policy Divergence",
+    "pdf_page": 282,
+    "book_page": 260
+  },
+  {
+    "level": 3,
+    "title": "The Deadly Triad",
+    "pdf_page": 286,
+    "book_page": 264
+  },
+  {
+    "level": 3,
+    "title": "Linear Value-function Geometry",
+    "pdf_page": 288,
+    "book_page": 266
+  },
+  {
+    "level": 3,
+    "title": "Gradient Descent in the Bellman Error",
+    "pdf_page": 291,
+    "book_page": 269
+  },
+  {
+    "level": 3,
+    "title": "The Bellman Error is Not Learnable",
+    "pdf_page": 296,
+    "book_page": 274
+  },
+  {
+    "level": 3,
+    "title": "Gradient-TD Methods",
+    "pdf_page": 300,
+    "book_page": 278
+  },
+  {
+    "level": 3,
+    "title": "Emphatic-TD Methods",
+    "pdf_page": 303,
+    "book_page": 281
+  },
+  {
+    "level": 3,
+    "title": "Reducing Variance",
+    "pdf_page": 305,
+    "book_page": 283
+  },
+  {
+    "level": 3,
+    "title": " Summary",
+    "pdf_page": 306,
+    "book_page": 284
+  },
+  {
+    "level": 2,
+    "title": "Eligibility Traces",
+    "pdf_page": 309,
+    "book_page": 287
+  },
+  {
+    "level": 3,
+    "title": "The -return",
+    "pdf_page": 310,
+    "book_page": 288
+  },
+  {
+    "level": 3,
+    "title": "TD()",
+    "pdf_page": 314,
+    "book_page": 292
+  },
+  {
+    "level": 3,
+    "title": "n-step Truncated -return Methods",
+    "pdf_page": 317,
+    "book_page": 295
+  },
+  {
+    "level": 3,
+    "title": "Redoing Updates: Online -return Algorithm",
+    "pdf_page": 319,
+    "book_page": 297
+  },
+  {
+    "level": 3,
+    "title": "True Online TD()",
+    "pdf_page": 321,
+    "book_page": 299
+  },
+  {
+    "level": 3,
+    "title": "*Dutch Traces in Monte Carlo Learning",
+    "pdf_page": 323,
+    "book_page": 301
+  },
+  {
+    "level": 3,
+    "title": "Sarsa()",
+    "pdf_page": 325,
+    "book_page": 303
+  },
+  {
+    "level": 3,
+    "title": "Variable  and ",
+    "pdf_page": 329,
+    "book_page": 307
+  },
+  {
+    "level": 3,
+    "title": "Off-policy Traces with Control Variates",
+    "pdf_page": 331,
+    "book_page": 309
+  },
+  {
+    "level": 3,
+    "title": " Watkins's Q() to Tree-Backup()",
+    "pdf_page": 334,
+    "book_page": 312
+  },
+  {
+    "level": 3,
+    "title": " Stable Off-policy Methods with Traces",
+    "pdf_page": 336,
+    "book_page": 314
+  },
+  {
+    "level": 3,
+    "title": " Implementation Issues",
+    "pdf_page": 338,
+    "book_page": 316
+  },
+  {
+    "level": 3,
+    "title": " Conclusions",
+    "pdf_page": 339,
+    "book_page": 317
+  },
+  {
+    "level": 2,
+    "title": "Policy Gradient Methods",
+    "pdf_page": 343,
+    "book_page": 321
+  },
+  {
+    "level": 3,
+    "title": "Policy Approximation and its Advantages",
+    "pdf_page": 344,
+    "book_page": 322
+  },
+  {
+    "level": 3,
+    "title": "The Policy Gradient Theorem",
+    "pdf_page": 346,
+    "book_page": 324
+  },
+  {
+    "level": 3,
+    "title": "REINFORCE: Monte Carlo Policy Gradient",
+    "pdf_page": 348,
+    "book_page": 326
+  },
+  {
+    "level": 3,
+    "title": "REINFORCE with Baseline",
+    "pdf_page": 351,
+    "book_page": 329
+  },
+  {
+    "level": 3,
+    "title": "Actor–Critic Methods",
+    "pdf_page": 353,
+    "book_page": 331
+  },
+  {
+    "level": 3,
+    "title": "Policy Gradient for Continuing Problems",
+    "pdf_page": 355,
+    "book_page": 333
+  },
+  {
+    "level": 3,
+    "title": "Policy Parameterization for Continuous Actions",
+    "pdf_page": 357,
+    "book_page": 335
+  },
+  {
+    "level": 3,
+    "title": "Summary",
+    "pdf_page": 359,
+    "book_page": 337
+  },
+  {
+    "level": 1,
+    "title": "III   Looking Deeper",
+    "pdf_page": 361,
+    "book_page": 339
+  },
+  {
+    "level": 2,
+    "title": "Psychology",
+    "pdf_page": 363,
+    "book_page": 341
+  },
+  {
+    "level": 3,
+    "title": "Prediction and Control",
+    "pdf_page": 364,
+    "book_page": 342
+  },
+  {
+    "level": 3,
+    "title": "Classical Conditioning",
+    "pdf_page": 365,
+    "book_page": 343
+  },
+  {
+    "level": 4,
+    "title": "Blocking and Higher-order Conditioning",
+    "pdf_page": 367,
+    "book_page": 345
+  },
+  {
+    "level": 4,
+    "title": "The Rescorla–Wagner Model",
+    "pdf_page": 368,
+    "book_page": 346
+  },
+  {
+    "level": 4,
+    "title": "The TD Model",
+    "pdf_page": 371,
+    "book_page": 349
+  },
+  {
+    "level": 4,
+    "title": "TD Model Simulations",
+    "pdf_page": 372,
+    "book_page": 350
+  },
+  {
+    "level": 3,
+    "title": "Instrumental Conditioning",
+    "pdf_page": 379,
+    "book_page": 357
+  },
+  {
+    "level": 3,
+    "title": "Delayed Reinforcement",
+    "pdf_page": 383,
+    "book_page": 361
+  },
+  {
+    "level": 3,
+    "title": "Cognitive Maps",
+    "pdf_page": 385,
+    "book_page": 363
+  },
+  {
+    "level": 3,
+    "title": "Habitual and Goal-directed Behavior",
+    "pdf_page": 386,
+    "book_page": 364
+  },
+  {
+    "level": 3,
+    "title": "Summary",
+    "pdf_page": 390,
+    "book_page": 368
+  },
+  {
+    "level": 2,
+    "title": "Neuroscience",
+    "pdf_page": 399,
+    "book_page": 377
+  },
+  {
+    "level": 3,
+    "title": "Neuroscience Basics",
+    "pdf_page": 400,
+    "book_page": 378
+  },
+  {
+    "level": 3,
+    "title": "Reward Signals, Reinforcement Signals, Values, and Prediction Errors",
+    "pdf_page": 402,
+    "book_page": 380
+  },
+  {
+    "level": 3,
+    "title": "The Reward Prediction Error Hypothesis",
+    "pdf_page": 403,
+    "book_page": 381
+  },
+  {
+    "level": 3,
+    "title": "Dopamine",
+    "pdf_page": 405,
+    "book_page": 383
+  },
+  {
+    "level": 3,
+    "title": "Experimental Support for the Reward Prediction Error Hypothesis",
+    "pdf_page": 409,
+    "book_page": 387
+  },
+  {
+    "level": 3,
+    "title": "TD Error/Dopamine Correspondence",
+    "pdf_page": 412,
+    "book_page": 390
+  },
+  {
+    "level": 3,
+    "title": "Neural Actor–Critic",
+    "pdf_page": 417,
+    "book_page": 395
+  },
+  {
+    "level": 3,
+    "title": "Actor and Critic Learning Rules",
+    "pdf_page": 420,
+    "book_page": 398
+  },
+  {
+    "level": 3,
+    "title": "Hedonistic Neurons",
+    "pdf_page": 424,
+    "book_page": 402
+  },
+  {
+    "level": 3,
+    "title": " Collective Reinforcement Learning",
+    "pdf_page": 426,
+    "book_page": 404
+  },
+  {
+    "level": 3,
+    "title": " Model-based Methods in the Brain",
+    "pdf_page": 429,
+    "book_page": 407
+  },
+  {
+    "level": 3,
+    "title": " Addiction",
+    "pdf_page": 431,
+    "book_page": 409
+  },
+  {
+    "level": 3,
+    "title": " Summary",
+    "pdf_page": 432,
+    "book_page": 410
+  },
+  {
+    "level": 2,
+    "title": "Applications and Case Studies",
+    "pdf_page": 443,
+    "book_page": 421
+  },
+  {
+    "level": 3,
+    "title": "TD-Gammon",
+    "pdf_page": 443,
+    "book_page": 421
+  },
+  {
+    "level": 3,
+    "title": "Samuel's Checkers Player",
+    "pdf_page": 448,
+    "book_page": 426
+  },
+  {
+    "level": 3,
+    "title": "Watson's Daily-Double Wagering",
+    "pdf_page": 451,
+    "book_page": 429
+  },
+  {
+    "level": 3,
+    "title": "Optimizing Memory Control",
+    "pdf_page": 454,
+    "book_page": 432
+  },
+  {
+    "level": 3,
+    "title": "Human-level Video Game Play",
+    "pdf_page": 458,
+    "book_page": 436
+  },
+  {
+    "level": 3,
+    "title": "Mastering the Game of Go",
+    "pdf_page": 463,
+    "book_page": 441
+  },
+  {
+    "level": 4,
+    "title": "AlphaGo",
+    "pdf_page": 466,
+    "book_page": 444
+  },
+  {
+    "level": 4,
+    "title": "AlphaGo Zero",
+    "pdf_page": 469,
+    "book_page": 447
+  },
+  {
+    "level": 3,
+    "title": "Personalized Web Services",
+    "pdf_page": 472,
+    "book_page": 450
+  },
+  {
+    "level": 3,
+    "title": "Thermal Soaring",
+    "pdf_page": 475,
+    "book_page": 453
+  },
+  {
+    "level": 2,
+    "title": "Frontiers",
+    "pdf_page": 481,
+    "book_page": 459
+  },
+  {
+    "level": 3,
+    "title": "General Value Functions and Auxiliary Tasks",
+    "pdf_page": 481,
+    "book_page": 459
+  },
+  {
+    "level": 3,
+    "title": "Temporal Abstraction via Options",
+    "pdf_page": 483,
+    "book_page": 461
+  },
+  {
+    "level": 3,
+    "title": "Observations and State",
+    "pdf_page": 486,
+    "book_page": 464
+  },
+  {
+    "level": 3,
+    "title": "Designing Reward Signals",
+    "pdf_page": 491,
+    "book_page": 469
+  },
+  {
+    "level": 3,
+    "title": "Remaining Issues",
+    "pdf_page": 494,
+    "book_page": 472
+  },
+  {
+    "level": 3,
+    "title": "Reinforcement Learning and the Future of Artificial Intelligence",
+    "pdf_page": 497,
+    "book_page": 475
+  },
+  {
+    "level": 1,
+    "title": "References",
+    "pdf_page": 503,
+    "book_page": 481
+  },
+  {
+    "level": 1,
+    "title": "Index",
+    "pdf_page": 541,
+    "book_page": 519
+  }
+]

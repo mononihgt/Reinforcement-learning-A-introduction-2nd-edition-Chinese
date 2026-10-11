@@ -1,0 +1,86 @@
+[
+  {
+    "label": "fig-16-inline-1",
+    "pdf_page": 444,
+    "bbox": [217, 68, 470, 203],
+    "path": "assets/figures/ch16/fig-16-inline-1.png",
+    "caption_en": "A backgammon position"
+  },
+  {
+    "label": "Figure 16.1",
+    "pdf_page": 445,
+    "bbox": [256, 72, 500, 210],
+    "path": "assets/figures/ch16/fig-16-1.png",
+    "caption_en": "The TD-Gammon ANN"
+  },
+  {
+    "label": "Figure 16.2",
+    "pdf_page": 450,
+    "bbox": [100, 68, 372, 241],
+    "path": "assets/figures/ch16/fig-16-2.png",
+    "caption_en": "The backup diagram for Samuel’s checkers player."
+  },
+  {
+    "label": "Figure 16.3",
+    "pdf_page": 455,
+    "bbox": [143, 408, 397, 548],
+    "path": "assets/figures/ch16/fig-16-3.png",
+    "caption_en": "High-level view of the reinforcement learning DRAM controller. The scheduler is the reinforcement learning agent. Its environment is represented by features of the transaction queue, and its actions are commands to the DRAM system. ©2009 IEEE. Reprinted, with permission, from J. F. Martínez and E. İpek, Dynamic multicore resource management: A machine learning approach, Micro, IEEE, 29(5), p. 12."
+  },
+  {
+    "label": "Figure 16.4",
+    "pdf_page": 457,
+    "bbox": [75, 403, 465, 518],
+    "path": "assets/figures/ch16/fig-16-4.png",
+    "caption_en": "Performances of four controllers over a suite of 9 simulated benchmark applications. The controllers are: the simplest ‘in-order’ controller, FR-FCFS, the learning controller RL, and the unrealizable Optimistic controller which ignores all timing and resource constraints to provide a performance upper bound. Performance, normalized to that of FR-FCFS, is the inverse of execution time. At far right is the geometric mean of performances over the 9 benchmark applications for each controller. Controller RL comes closest to the ideal performance. ©2009 IEEE. Reprinted, with permission, from J. F. Martínez and E. İpek, Dynamic multicore resource management: A machine learning approach, Micro, IEEE, 29(5), p. 13."
+  },
+  {
+    "label": "fig-16-inline-2",
+    "pdf_page": 464,
+    "bbox": [254, 336, 433, 518],
+    "path": "assets/figures/ch16/fig-16-inline-2.png",
+    "caption_en": "A Go board configuration"
+  },
+  {
+    "label": "Figure 16.5",
+    "pdf_page": 465,
+    "bbox": [188, 58, 348, 120],
+    "path": "assets/figures/ch16/fig-16-5.png",
+    "caption_en": "Go capturing rule. Left: the three white stones are not surrounded because point X is unoccupied. Middle: if black places a stone on X, the three white stones are captured and removed from the board. Right: if white places a stone on point X first, the capture is blocked."
+  },
+  {
+    "label": "Figure 16.6",
+    "pdf_page": 467,
+    "bbox": [76, 148, 464, 340],
+    "path": "assets/figures/ch16/fig-16-6.png",
+    "caption_en": "AlphaGo pipeline. Adapted with permission from Macmillan Publishers Ltd: Nature, vol. 529(7587), p. 485, ©2016."
+  },
+  {
+    "label": "Figure 16.7",
+    "pdf_page": 470,
+    "bbox": [46, 60, 500, 288],
+    "path": "assets/figures/ch16/fig-16-7.png",
+    "caption_en": "AlphaGo Zero self-play reinforcement learning. a) The program played many games against itself, one shown here as a sequence of board positions s_i, i = 1, 2, . . . , T, with moves a_i, i = 1, 2, . . . , T, and winner z. Each move a_i was determined by action probabilities π_i returned by MCTS executed from root node s_i and guided by a deep convolutional network, here labeled f_θ, with latest weights θ. Shown here for just one position s but repeated for all s_i, the network’s inputs were raw representations of board positions s_i (together with several past positions, though not shown here), and its outputs were vectors p of move probabilities that guided MCTS’s forward searches, and scalar values v that estimated the probability of the current player winning from each position s_i. b) Deep convolutional network training. Training examples were randomly sampled steps from recent self-play games. Weights θ were updated to move the policy vector p toward the probabilities π returned by MCTS, and to include the winners z in the estimated win probability v. Reprinted from draft of Silver et al. (2017a) with permission of the authors and DeepMind."
+  },
+  {
+    "label": "Figure 16.8",
+    "pdf_page": 475,
+    "bbox": [110, 100, 430, 208],
+    "path": "assets/figures/ch16/fig-16-8.png",
+    "caption_en": "Click through rate (CTR) versus life-time value (LTV). Each circle represents a user visit; black circles are visits at which the user clicks. Adapted from Theocharous et al. (2015)."
+  },
+  {
+    "label": "Figure 16.9",
+    "pdf_page": 476,
+    "bbox": [48, 210, 472, 372],
+    "path": "assets/figures/ch16/fig-16-9.png",
+    "caption_en": "Thermal soaring model: Left: snapshot of the vertical velocity field of the simulated cube of air: in red (blue) is a region of large upward (downward) flow. Right: diagram of powerless flight showing bank angle μ and angle of attack α. Adapted with permission From PNAS vol. 113(22), p. E4879, 2016, Reddy, Celani, Sejnowski, and Vergassola, Learning to Soar in Turbulent Environments."
+  },
+  {
+    "label": "Figure 16.10",
+    "pdf_page": 478,
+    "bbox": [44, 60, 490, 240],
+    "path": "assets/figures/ch16/fig-16-10.png",
+    "caption_en": "Sample thermal soaring trajectories, with arrows showing the direction of flight from the same starting point (note that the altitude scales are shifted). Left: before learning: the agent selects actions randomly and the glider descends. Right: after learning: the glider gains altitude by following a spiral trajectory. Adapted with permission from PNAS vol. 113(22), p. E4879, 2016, Reddy, Celani, Sejnowski, and Vergassola, Learning to Soar in Turbulent Environments."
+  }
+]
