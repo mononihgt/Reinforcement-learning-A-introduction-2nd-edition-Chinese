@@ -1,0 +1,7 @@
+work/
+preview/
+.venv/
+__pycache__/
+book.pdf
+scratch/
+.DS_Store

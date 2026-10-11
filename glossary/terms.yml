@@ -1,0 +1,102 @@
+# 供 tools/assemble.py 的 check-terms 使用的机器可读术语表。
+# 每一章翻译完成后都会被扫描，出现 wrong 中的写法即报告。
+# 具体译名标准见同目录的 TERMINOLOGY.md。
+
+forbidden:
+  - wrong: 智能体
+    right: agent
+    why: agent 保留英文
+  - wrong: 代理
+    right: agent
+    why: agent 保留英文
+  - wrong: 演员-评论家
+    right: actor–critic
+    why: actor–critic 保留英文
+  - wrong: 演员—评论家
+    right: actor–critic
+    why: actor–critic 保留英文
+  - wrong: 演员评论家
+    right: actor–critic
+    why: actor–critic 保留英文
+  - wrong: 蒙特卡罗
+    right: 蒙特卡洛
+    why: 全书只用蒙特卡洛一个译名
+  - wrong: 备份图
+    right: 回溯图
+    why: backup 译作回溯
+  - wrong: 树备份
+    right: Tree Backup
+    why: Tree Backup 是算法名，保留英文
+  - wrong: 树回溯
+    right: Tree Backup
+    why: Tree Backup 是算法名，保留英文
+  - wrong: 备份
+    right: 回溯
+    why: backup 作概念用时译作回溯
+  - wrong: 非监督学习
+    right: 无监督学习
+    why: unsupervised 译作无监督
+  - wrong: 价值函数
+    right: 值函数
+    why: value function 译作值函数
+  - wrong: 收益
+    right: 奖励或回报
+    why: 奖励与回报是两个不同的概念，不能用收益含混表示
+  - wrong: 行动
+    right: 动作
+    why: action 译作动作
+  - wrong: 函数逼近
+    right: 函数近似
+    why: approximation 译作近似
+  - wrong: 连续任务
+    right: 持续性任务
+    why: continuing task 译作持续性任务
+  - wrong: 后期状态
+    right: 后续状态
+    why: afterstate 译作后续状态
+  - wrong: 时间差分
+    right: 时序差分
+    why: temporal difference 译作时序差分
+  - wrong: 折扣因子
+    right: 折扣率
+    why: discount rate 译作折扣率
+  - wrong: ε贪婪
+    right: ε-greedy
+    why: ε-greedy 保留英文写法
+  - wrong: ε-贪婪
+    right: ε-greedy
+    why: ε-greedy 保留英文写法
+  - wrong: 汤普森采样
+    right: Thompson 采样
+    why: 人名保留英文
+  - wrong: 动态规划法
+    right: 动态规划
+    why: 译名统一
+  - wrong: 时间步长
+    right: 时间步
+    why: time step 指离散时刻，与 step size 步长区分
+  - wrong: 选项
+    right: option
+    why: option 保留英文
+  - wrong: 行为主体
+    right: agent
+    why: agent 保留英文
+  - wrong: 傅立叶
+    right: 傅里叶
+    why: 统一用傅里叶
+  - wrong: 双重学习
+    right: Double learning
+    why: Double learning 保留英文
+  - wrong: 书目与历史评论
+    right: 文献与历史评注
+    why: 章末小节标题统一
+
+# 源 PDF 文字层的损坏字符。译文里出现这些字符，说明提取阶段的连字修复没有做完。
+# 参见 TERMINOLOGY.md 开头对源文件损坏情况的说明。
+artifacts:
+  - "↵"
+  - "⇡"
+  - "⇤"
+  - "⇢"
+  - "⇠"
+  - "�"
